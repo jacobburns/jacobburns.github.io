@@ -1,0 +1,149 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "https://fonts.googleapis.com/css?family=Dosis";
+#logo-and-photo {
+  margin-left: 15%;
+  width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 3%; }
+  #logo-and-photo h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 3%;
+    color: #D12026; }
+  #logo-and-photo hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D12026;
+    margin: 2% 0 2% 0;
+    padding: 0;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+#profile-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  border: 1px solid #D12026; }
+
+#detail-summary p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+  padding-bottom: 2%; }
+
+#skill-tile {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  border: 1px solid;
+  width: 45%;
+  margin-left: 27.50%;
+  padding: 15px;
+  border-radius: 25px;
+  border-color: #D12026; }
+  #skill-tile p {
+    text-align: left;
+    margin-bottom: 10%;
+    background-color: blue; }
+  #skill-tile h2 {
+    padding: 4% 0 2% 0;
+    font-size: 30px; }
+
+nav {
+  background-color: #D12026;
+  position: fixed;
+  width: 100%;
+  height: 2.5%; }
+  nav li {
+    width: 200px; }
+  nav a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 0.1%; }
+    nav a:hover {
+      color: white;
+      transition-delay: 0.2s; }
+
+#navigation-bar {
+  height: 70%; }
+
+footer {
+  background-color: #fbedea;
+  width: 100%;
+  height: 2%;
+  margin-top: 3%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
+
+/*Mobile*/
+@media screen and (max-width: 620px) {
+  #skill-tile {
+    width: 90%;
+    padding: 0 2%;
+    margin: 0 4%; }
+
+  #skill-tile h2 {
+    margin-top: 1%; }
+
+  #skill-tile li {
+    margin-top: 2%; }
+
+  #triathlon-photo {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 2% 5%; }
+
+  #logo-and-photo {
+    padding-top: 7%; }
+
+  nav a {
+    font-size: 30px;
+    display: none; }
+
+  footer p {
+    height: 10%; } }
+/*Tablet*/
+@media screen and (min-width: 621px) and (max-width: 1200px) {
+  #skill-tile {
+    width: 80%;
+    padding: 0 2%;
+    margin: 0 8%; }
+
+  #triathlon-photo {
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 2% 5%; } }
+/*Desktop*/
+@media screen and (min-width: 1200px) {
+  #skill-tile {
+    width: 50%;
+    padding: 0 2%;
+    margin: 0 23%; }
+
+  #skill-profile li {
+    font-size: 20px; }
+
+  #triathlon-photo {
+    border-radius: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 2% 5%; } }
+
+/*# sourceMappingURL=style.css.map */
