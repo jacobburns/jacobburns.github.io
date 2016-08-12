@@ -16,11 +16,11 @@ $primary-color: #D12026;
 		padding-top: 3%;
 		color: $primary-color;
 	}
+
 	hr {
 		display: block;
-		height: 2px;
-		border: 0;
-		border-top: 1px solid $primary-color;
+		height: 1px;
+		border-top: 100px solid $primary-color;
 		margin: 2% 0 2% 0;
 		padding: 0;
 		width: 80%;
